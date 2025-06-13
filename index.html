@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="logo.png" type="image/png">
+  <link rel="stylesheet" href="estilos.css">
+  <title>La Pinche Torta Ahogada - Estilo Único de Guadalajara</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="logo.png" alt="Logo La Pinche Torta Ahogada" class="header-logo">
+        <div class="logo-text">
+          <h1>La Pinche Torta Ahogada</h1>
+          <p>Estilo Único de Guadalajara</p>
+        </div>
+      </div>
+      <nav>
+        <button class="menu-toggle" aria-label="Abrir menú">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#menu">Menú</a></li>
+          <li><a href="#promociones">Promociones</a></li>
+          <li><a href="#ubicacion">Ubicación</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h2>¡Bienvenidos al Sabor Auténtico!</h2>
+      <p>Disfruta las mejores tortas ahogadas estilo Guadalajara en Tecate</p>
+      <div class="hero-buttons">
+        <a href="#menu" class="btn btn-primary">Ver Menú</a>
+        <a href="https://wa.me/526651368330" class="btn btn-secondary" target="_blank">Ordenar Ahora</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="imagen_2.jpeg" alt="Deliciosa torta ahogada">
+    </div>
+  </section>
+
+  <!-- Menú -->
+  <section id="menu" class="menu">
+    <div class="container">
+      <h2>Nuestro Menú</h2>
+      <p class="section-subtitle">Platillos tradicionales preparados con amor y los mejores ingredientes</p>
+      <div class="menu-items">
+        <div class="item">
+          <div class="item-image">
+            <img src="imagen_2.jpeg" alt="Torta Ahogada Clásica">
+            <div class="item-overlay">
+              <a href="https://wa.me/526651368330" class="order-btn">Ordenar</a>
+            </div>
+          </div>
+          <div class="item-content">
+            <h3>Torta Ahogada</h3>
+            <p>Deliciosa torta bañada en salsa de la casa, salsa picante y cebolla al gusto.</p>
+            <span class="price">$120.00 MXN</span>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-image">
+            <img src="imagen_1.jpeg" alt="Tacos Dorados">
+            <div class="item-overlay">
+              <a href="https://wa.me/526651368330" class="order-btn">Ordenar</a>
+            </div>
+          </div>
+          <div class="item-content">
+            <h3>Orden de Tacos Dorados (4 tacos)</h3>
+            <p>Tacos dorados de papa bañados al gusto con salsa especial, salsa picante, cebolla, queso, lechuga y carnitas.</p>
+            <span class="price">$120.00 MXN</span>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-image">
+            <img src="Chilaquiles.jpg" alt="Chilaquiles del Rancho">
+            <div class="item-overlay">
+              <a href="https://wa.me/526651368330" class="order-btn">Ordenar</a>
+            </div>
+          </div>
+          <div class="item-content">
+            <h3>Chilaquiles del Rancho</h3>
+            <p>Chilaquiles del rancho en salsa roja de la casa, acompañados con carne de lomo, huevo frito, frijoles y queso.</p>
+            <span class="price">$150.00 MXN</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Promociones 
+<div class="promociones-items" style="flex-direction: column; gap: 20px;">
+  <div class="promo-item">
+    <div class="promo-content">
+      <h3>Códigos de Descuento</h3>
+      <ul style="list-style: none; padding: 0;">
+        <li><strong>TORTA10:</strong> ¡10% OFF en tu próxima torta!</li>
+        <li><strong>TACOS15:</strong> ¡15% OFF en tacos dorados!</li>
+        <li><strong>PROMO20:</strong> ¡20% OFF en tu pedido!</li>
+        <li><strong>ESPECIAL25:</strong> ¡25% OFF - Oferta especial!</li>
+        <li><strong>VIP30:</strong> ¡30% OFF - Cliente VIP!</li>
+      </ul>
+    </div>
+  </div>
+</div> -->
+
+
+  <!-- Video Presentación -->
+  <section id="video-presentacion" class="video-presentacion">
+    <div class="container">
+      <h2>Conoce Nuestro Lugar</h2>
+      <p>Un ambiente familiar donde cada platillo se prepara con dedicación</p>
+      <div class="video-container">
+        <video id="video-tortas" poster="imagen_2.jpeg" muted autoplay loop>
+          <source src="video_tortas.mp4" type="video/mp4">
+          Tu navegador no soporta el elemento de video.
+        </video>
+        <button id="play-button" aria-label="Reproducir video">▶</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Horarios -->
+  <section id="horarios" class="horarios">
+    <div class="container">
+      <h2>Horarios de Atención</h2>
+      <p>¡Te esperamos! Visítanos en los siguientes horarios:</p>
+      
+      <div class="horarios-grid">
+        <div class="horario-card">
+          <h3>Jueves - Lunes</h3>
+          <p class="horario-time">10:00 AM - 8:00 PM</p>
+          <div class="horario-status abierto">Abierto</div>
+        </div>
+        <div class="horario-card">
+          <h3>Martes - Miércoles</h3>
+          <p class="horario-time">Cerrado</p>
+          <div class="horario-status cerrado">Cerrado</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ubicación -->
+  <section id="ubicacion" class="ubicacion">
+    <div class="container">
+      <h2>Nuestra Ubicación</h2>
+      <p>¡Ven a visitarnos y disfruta de las mejores Tortas Ahogadas estilo Guadalajara!</p>
+      
+      <div class="ubicacion-content">
+        <div class="ubicacion-info">
+          <div class="info-card">
+            <h3>📍 Dirección</h3>
+            <p>Lucio Blanco 777, Amp Colinas del Cuchuma, 21449 Tecate, B.C.</p>
+          </div>
+          <div class="info-card">
+            <h3>📞 Teléfono</h3>
+            <p><a href="tel:+526651368330">+52 665 136 8330</a></p>
+          </div>
+          <div class="info-card">
+            <h3>🚗 Cómo llegar</h3>
+            <p>Fácil acceso y estacionamiento disponible</p>
+          </div>
+        </div>
+        
+        <div class="mapa">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3362.304996726061!2d-116.66324132355018!3d32.57138917375035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d913292f0100eb%3A0x6710e05c796e0af1!2sLucio%20Blanco%20777%2C%20Amp%20Colinas%20del%20Cuchuma%2C%2021449%20Tecate%2C%20B.C.!5e0!3m2!1ses-419!2smx!4v1741274555035!5m2!1ses-419!2smx" 
+                  width="100%" 
+                  height="400" 
+                  style="border:0;" 
+                  allowfullscreen="" 
+                  loading="lazy" 
+                  referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="contact">
+    <div class="container">
+      <h2>Contáctanos</h2>
+      <p>¡Síguenos en nuestras redes sociales y mantente al tanto de nuestras promociones!</p>
+      
+      <div class="contact-content">
+        <div class="contact-form">
+          <h3>Envíanos un mensaje</h3>
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            </div>
+            <div class="form-group">
+              <input type="tel" id="telefono" name="telefono" placeholder="Tu teléfono" required>
+            </div>
+            <div class="form-group">
+              <textarea id="mensaje" name="mensaje" placeholder="Tu mensaje" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+          </form>
+        </div>
+        
+        <div class="contact-info">
+          <h3>Síguenos en redes sociales</h3>
+          <div class="redes-sociales">
+            <a href="https://www.facebook.com/share/1C3wT5q67p/" target="_blank" class="social-icon facebook">
+              <img src="facebook.png" alt="Facebook">
+              <span>Facebook</span>
+            </a>
+            <a href="https://www.instagram.com/jijoshcod?igsh=cno5b3R0azNuMjkz" target="_blank" class="social-icon instagram">
+              <img src="instagram.png" alt="Instagram">
+              <span>Instagram</span>
+            </a>
+            <a href="https://www.tiktok.com/@la.pinche.torta.ahogada?_t=ZM-8uSfxTbArMz&_r=1" target="_blank" class="social-icon tiktok">
+              <img src="tiktok.png" alt="TikTok">
+              <span>TikTok</span>
+            </a>
+            <a href="https://wa.me/526651368330" target="_blank" class="social-icon whatsapp">
+              <img src="whatsapp.png" alt="WhatsApp">
+              <span>WhatsApp</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="logo.png" alt="Logo Tortas Ahogadas">
+          <h3>La Pinche Torta Ahogada</h3>
+          <p>Estilo Único de Guadalajara</p>
+        </div>
+        <div class="footer-info">
+          <h4>Información</h4>
+          <ul>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#promociones">Promociones</a></li>
+            <li><a href="#ubicacion">Ubicación</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contacto</h4>
+          <p>📍 Lucio Blanco 777, Tecate, B.C.</p>
+          <p>📞 +52 665 136 8330</p>
+          <p>🕒 Jue-Lun: 10:00 AM - 8:00 PM</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 La Pinche Torta Ahogada. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float Button -->
+  <a href="https://wa.me/526651368330" class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp">
+    <img src="whatsapp.png" alt="WhatsApp">
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
